@@ -1,0 +1,17 @@
+.section1{
+    background-image: url("./images/joshua-reddekopp-SyYmXSDnJ54-unsplash.jpg");
+    background-size: cover;
+}
+.nav{
+    display:inline;
+    color:white;
+}
+.nav ul{
+    display:flex;
+    padding:20px;
+}
+.nav ul li{
+    padding:10px;
+    list-style: none;
+    cursor:pointer;
+}

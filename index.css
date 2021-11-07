@@ -24,7 +24,7 @@ ul{
     display:flex;
 
 }
-ul li{
+ul li {
     padding:20px;
     list-style:none;
     font-size: 12px;
@@ -32,7 +32,7 @@ ul li{
     font-weight: bold;
     font-family: 'Red Hat Mono', monospace;
 }
-ul li a:hover{
+ul li:hover{
     color:#3C62C7
 }
 
@@ -61,6 +61,8 @@ ul li a:hover{
 /* section 3 */
 .projects{
     margin:50px;
+    background-color: black;
+    color:white;
 }
 .items{
     display:flex;

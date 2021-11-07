@@ -5,7 +5,7 @@ George Mboya
 ### Description
 This portfolio showcases my background in tech and skills in programmeming and developing.
 #
-## Setup Instructionsi
+## Setup Instructions
 The project used HTML and CSS to implement
 
 

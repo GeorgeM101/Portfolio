@@ -46,7 +46,16 @@ ul li{
 /* section 3 */
 .projects{
     margin:50px;
+}
+.items{
     display:flex;
+    padding:10px;
+    justify-content: space-between;
+}
+#street{
+    box-shadow:5px 5px 5px;
+    width:400px;
+    padding:10px;
 }
 
 

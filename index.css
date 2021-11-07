@@ -1,17 +1,27 @@
-@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&family=Red+Hat+Mono:wght@300&display=swap')
-*{
-    /* background-color: black; */
-}
-.section1{
+@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&family=Red+Hat+Mono:wght@300&display=swap') ;
 
-}
+
 .navbar{
     background-color: black;
+    height: 70px;
+    display:flex;
+    justify-content: space-between;
+
+}
+
+.title{
+    margin:10px;
+    color:white;
+    font-family:'cursive'
+}
+.nav{
+    float:right;
 }
 ul{
-    display:flex;
     color:white;
     justify-content: flex-end;
+    text-decoration: none;
+    display:flex;
 
 }
 ul li{
@@ -21,6 +31,9 @@ ul li{
     text-transform: uppercase;
     font-weight: bold;
     font-family: 'Red Hat Mono', monospace;
+}
+ul li a:hover{
+    color:#3C62C7
 }
 
 /* section2 */

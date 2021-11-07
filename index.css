@@ -1,7 +1,6 @@
 
 *{
-    background-color: black;
-    color:white;
+    /* background-color: black; */
 }
 .section1{
 
@@ -32,6 +31,7 @@ ul li{
     width:800px;
     align-items: center;
     box-shadow: 10px 10px 20px;
+    margin:50px;
 }
 .image{
     background-color: #C4C4C4;
@@ -42,6 +42,9 @@ ul li{
     background-color: #C4C4C4;
     padding:20px;
     text-align: center;
+}
+.projects{
+    margin:50px;
 }
 
 

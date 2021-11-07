@@ -3,9 +3,9 @@
 George Mboya
 #
 ### Description
-This portfolio contains my background and skills as a programmer and developer.
+This portfolio showcases my background in tech and skills in programmeming and developing.
 #
-## Setup Instructions
+## Setup Instructionsi
 The project used HTML and CSS to implement
 
 ___https://georgem101.github.io/Portfolio/___

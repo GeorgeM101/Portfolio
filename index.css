@@ -102,8 +102,17 @@ ul li a:hover{
 
 .contact{
     background-color:black;
+    height:80%;
 }
 .details{
     color:white;
+    text-align:center;
+    height: 200px;
+    width:250px;
+    margin-left:500px;
     border: 2px solid white;
+}
+#email{
+    outline:none;
+    width:180px;
 }

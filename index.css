@@ -56,10 +56,11 @@ ul li{
     box-shadow:5px 5px 5px;
     width:400px;
     padding:10px;
+    /* opacity: 0.6; */
 }
-
-
-
+.street a:hover{
+    color:grey;
+}
 
 
 

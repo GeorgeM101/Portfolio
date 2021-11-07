@@ -81,6 +81,10 @@ ul li a:hover{
 
 
 /* section4 */
+.section4{
+    align-items:center;
+
+}
 .about{
     background-color: #C4C4C4;
 }

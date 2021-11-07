@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/3fdcdd317a.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="index.css">
     <title>Portfolio</title>
 </head>
@@ -15,9 +16,9 @@
             </div>
             <div class="nav">
                 <ul>
-                    <a href="#"> <li>About Me</li></a>  
-                    <a href="#"><li>Projects</li></a>  
-                    <a href="#"><li>Contact </li></a>  
+                    <a href="#About"> <li>About Me</li></a>  
+                    <a href="#Projects"><li>Projects</li></a>  
+                    <a href="#contact"><li>Contact </li></a>  
                   </ul>
             </div>
         </div>
@@ -40,7 +41,7 @@
   
 
     <!-- section3 projects-->
-    <div class="projects">
+    <div class="projects" id="Projects">
         <h2>PROJECTS</h2>
         <hr>
         <div class="items">
@@ -60,9 +61,9 @@
     </div>
 
     <!-- About me -->
-    <div class="section4">
-        <h2>About Me</h2>
+    <div class="section4" id="About">
         <div class="about">
+            <h2>About Me</h2>
             <p>I am a Software Engineering student. Currently learning at Moringa School. I love everything about technology especially the coding aspect of it. Designing and creating projects from ideas is fulfilling to me.
             Apart from the tech world I also play basketball and guitar
         </div>
@@ -75,17 +76,19 @@
         </div>
     </div>
 
-    <div class="contact">
-        <div class="details">
-            <h3>Contacts</h3>
-            <input type="Email" placeholder="Email" id="email" >
-            <br>
-            <br>
-            <input type="text" name="Comments" id="comm">
+    <!-- contact -->
+    <div class="contacts">
+        <div class="form">
+            <input type="text" placeholder="Email" id="email">
+            <input type="text" placeholder="Comments">
+            <input type="Submit" name="" id="">
+        </div>
+        <div class="icons">
+            <i class=fab-fa-facebook></i>
         </div>
     </div>
 
-
+    
 </body>
 </html>
            

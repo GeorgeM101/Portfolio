@@ -4,9 +4,10 @@
 .navbar{
     background-color: black;
     height: 70px;
+    box-shadow: 0px 5px 5px;
     display:flex;
     justify-content: space-between;
-
+    opacity: 0.6;
 }
 
 .title{
@@ -17,10 +18,18 @@
 .nav{
     float:right;
 }
+.nav a{
+    text-decoration:none;
+    color:white;
+}
+#title{
+    color:#B8F1FC;
+    text-transform: uppercase;
+    font-family: inherit;
+}
 ul{
     color:white;
     justify-content: flex-end;
-    text-decoration: none;
     display:flex;
 
 }
@@ -28,10 +37,12 @@ ul li {
     padding:20px;
     list-style:none;
     font-size: 12px;
+    text-decoration: none;
     text-transform: uppercase;
-    font-weight: bold;
+    font-weight: 800;
     font-family: 'Red Hat Mono', monospace;
 }
+
 ul li:hover{
     color:#3C62C7
 }
@@ -135,4 +146,7 @@ ul li:hover{
 #submit{
     outline:none;
     /* margin-left:150px; */
+}
+.terms{
+    color:white;
 }

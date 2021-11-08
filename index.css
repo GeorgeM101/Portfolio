@@ -15,6 +15,9 @@
     color:white;
     font-family:'cursive'
 }
+h2{
+    /* color:#C4C4C4; */
+}
 .nav{
     float:right;
 }
@@ -88,36 +91,30 @@ ul li:hover{
 }
 #street:hover{
     transform:translateY(15px);
-    transition:0.7s;
+    transition:0.5s;
 }
 
-
-
-/* section4 */
-.section4{
-    align-items:center;
-    margin:50px;
-    display:flex;
-
-}
+/* About me */
 .about{
+    display: flex;
+    
+}
+.texxt1{
     background-color: #C4C4C4;
     width:300px;
     text-align: center;
 }
-
-
-.text2{
+#skills{
     background-color: #C4C4C4;
-    position:relative;
-    left:500px;
-    width:270px;
-    text-align:center;
-
-    
+    width:300px;
+    margin:10px;
 }
+#skills ol{
+    list-style:none;
+}
+
 /* contacts */
-.contacts{
+#contacts{
     background-color:black;
 }
 .form{
@@ -126,7 +123,7 @@ ul li:hover{
     margin-left:430px;
     padding:20px;
     width:400px;
-    color:white;
+    color:black;
     border:2px solid white;
     align-items: center;
 }

@@ -148,5 +148,7 @@ ul li:hover{
     /* margin-left:150px; */
 }
 .terms{
+    background-color: #24292F;
     color:white;
+    text-align: center;
 }
